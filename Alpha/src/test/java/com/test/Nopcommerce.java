@@ -34,7 +34,7 @@ public class Nopcommerce {
     @Test
     public void userInRegistration() {
 
-        driver.findElement(By.id("gender-male")).click();
+        driver.findElement(By.id("gender-female")).click();
         driver.findElement(By.id("FirstName")).sendKeys("Muhammad");
         driver.findElement(By.id("LastName")).sendKeys("ali");
         Select dropdown = new Select(driver.findElement(By.name("DateOfBirthDay")));
